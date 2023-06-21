@@ -105,3 +105,121 @@ while countryA <= countryB:
 print(countryA)
 print(countryB)
 print(f'A população do País A atingirá ou ultrapassará o tamanho do Páis B em {anos} anos')'''
+
+#15
+'''num = 20
+for i in range(1, num+1):
+    print(i, end=" ")'''
+
+#16
+'''number = 0
+i = 0
+while i < 5:
+    numbers = float(input(f'Digite o {i+1}° número: '))
+    i += 1
+    if numbers > number:
+        number = numbers
+print(number)'''
+
+#17
+'''number = 0
+i = 0
+while i < 5:
+    numbers = float(input(f'Digite o {i +1}° número: '))
+    number += numbers
+    i += 1
+
+media = number/i
+
+print(f'A soma dos números é: {number} e a média é: {media}')'''
+
+#18
+'''for i in range(50):
+    if i % 2 ==0:
+        continue
+    else:
+        print(f'O número {i} é impar')'''
+
+#19 e 20
+'''number1 = int(input("Digite um número inteiro: "))
+number2 = int(input("Digite outro número inteiro: "))
+for i in range(number1 +1, number2):
+    print(f'{i} é um número inteiro entre {number1} e {number2}')
+print(f'A soma dos número é: {number1 + number2}')'''
+
+#21
+'''num = int(input("Digite um número para gerar sua tabuada: "))
+for i in range(1, 11):
+    print(f'{i} * {num} = {i*num}')'''
+
+#22
+'''list = []
+i = 0
+while i < 5:
+    number = int(input(f'Digite o {i +1}° número: '))
+    list.append(number)
+    i += 1
+print(list)'''
+
+#23
+'''list = []
+i = 0
+while i < 10:
+    number = float(input(f'Digite o {i +1}° número: '))
+    list.append(number)
+    i += 1
+print(list[::-1])'''
+
+#24
+'''notas = []
+for i in range(4):
+    nota = float(input(f'Digite a {i+1}° nota: '))
+    notas. append(nota)
+print(f'A 1° nota é: {notas[0]}\nA 2° nota é: {notas[1]}\nA 3° nota é: {notas[2]}\nA 4° nota é: {notas[3]}\nA média é: {sum(notas)/len(notas)}')'''
+
+#25
+'''vogais = ['a', 'e', 'i', 'o', 'u']
+consoantes = []
+for i in range(10):
+    consoante = str(input(f'Digite o {i+1}° caractere: '))
+    if consoante not in vogais:
+        consoantes.append(consoante)
+
+print(f'A quantidade de consoantes detectadas foram: {len(consoantes)}')
+for i in range(len(consoantes)):
+    print(f'As consoantes encontradas foram: {consoantes[i]}')'''
+
+#26
+'''numbers = []
+pares = []
+impares = []
+for i in range(20):
+    number = int(input(f'Digite o {i+1}° número: '))
+    numbers.append(number)
+    if number %2 == 0:
+        pares.append(number)
+    else:
+        impares.append(number)
+print(f'Lista de números: {numbers}')
+print(f'Lista de números pares: {pares}')
+print(f'Lista de números impares: {impares}')'''
+
+#27
+'''medias = []
+for i in range(10):
+    notas = 0
+    print(f'Bem vindo aluno {i+1}, digite suas notas:')
+    for j in range(4):
+        nota = float(input(f'Digite a {j+1}° nota: '))
+        notas += nota
+    media = notas / 4
+    medias.append(media)
+    print(notas)
+    print(media)
+print(f'As médias foram: {medias}')
+print("Médias acima de 7 abaixo:")
+for i in range(len(medias)):
+    if medias[i] > 7:
+        print(f'A média do aluno {i+1} foi: {medias[i]}')'''
+
+#28
