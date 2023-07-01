@@ -223,3 +223,26 @@ for i in range(len(medias)):
         print(f'A média do aluno {i+1} foi: {medias[i]}')'''
 
 #28
+'''list = []
+numberMulti = 1
+for i in range(5):
+    number = int(input(f'Digite o {i+1}° número: '))
+    list.append(number)
+    numberMulti *= number
+print(f'Os números são: {list}')
+print(f'A multiplicação entre eles é: {numberMulti}')
+print(f'A soma entre eles é: {sum(list)}')'''
+
+#29
+'''idades = []
+alturas = []
+for i in range(5):
+    print(f'Bem vindo {i+1}° pessoa!')
+    idade = int(input("Digite sua idade: "))
+    idades.append(idade)
+    altura = float(input("Digite sua altura: "))
+    alturas.append(altura)
+print(idades[::-1])
+print(alturas[::-1])'''
+
+#37
